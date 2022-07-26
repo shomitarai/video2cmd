@@ -9,7 +9,6 @@ edition = "2021"
 colored = "1.9"
 opencv = "0.64"
 crossterm = "0.23"
-termion = "1.5.6"
 tui = "0.18.0"
 tokio = { version = "1.19.2", features = ["full"]}
 ws = "0.9"
