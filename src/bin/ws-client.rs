@@ -135,7 +135,7 @@ use std::sync::mpsc;
 fn main() -> Result<()> {
     env_logger::init();
 
-    if let Err(error) = connect("ws://127.0.0.1:3012", |out| {
+    if let Err(error) = connect("ws://192.168.11.52:3012", |out| {
         // if let Err(error) = connect("ws://127.0.0.1:3012", |out| {
         let (tx, rx): (Sender<i32>, Receiver<i32>) = mpsc::channel();
 
